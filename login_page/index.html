@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login popup</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <button class="bnt_login">Login</button>
+
+    <div class="overlay" onclick="closemodel"></div>
+
+    <div class="loginform">
+        <span id="close">&times;</span>
+        <form action="">
+            <div>
+                <label for="">username</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="">password</label>
+                <input type="password">
+            </div>
+
+            <button>LOGIN</button>
+        </form>
+    </div>
+</body>
+
+    <!-- link js -->
+    <script src="./script.js"></script>
+
+</html>
